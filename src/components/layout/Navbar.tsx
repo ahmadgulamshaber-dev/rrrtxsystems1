@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { RRRTXLogo } from '../ui/Logo'; // Fixed this path
+import { RRRTXLogo } from '../ui/Logo';
 
 const Navbar = () => {
   return (
@@ -13,9 +13,9 @@ const Navbar = () => {
         </Link>
         
         <div className="hidden md:flex items-center gap-10">
-          <Link href="/services" className="text-sm font-medium text-muted hover:text-foreground transition-colors uppercase tracking-widest">Services</Link>
-          <Link href="/case-studies" className="text-sm font-medium text-muted hover:text-foreground transition-colors uppercase tracking-widest">Reports</Link>
-          <Link href="/about" className="text-sm font-medium text-muted hover:text-foreground transition-colors uppercase tracking-widest">About</Link>
+          <Link href="/services" className="text-sm font-medium text-muted hover:text-foreground transition-colors uppercase tracking-[0.1em]">Services</Link>
+          <Link href="/case-studies" className="text-sm font-medium text-muted hover:text-foreground transition-colors uppercase tracking-[0.1em]">Reports</Link>
+          <Link href="/about" className="text-sm font-medium text-muted hover:text-foreground transition-colors uppercase tracking-[0.1em]">About</Link>
         </div>
 
         <Link 
