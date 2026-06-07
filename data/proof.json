@@ -1,0 +1,37 @@
+{
+  "reviews": [
+    {
+      "id": "1",
+      "client_name": "James R.",
+      "company": "American Pro Paving",
+      "rating": 5,
+      "text": "The Lead Machine changed our business. We went from chasing leads to closing them in minutes.",
+      "date": "2026-05-10"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Sarah Chen",
+      "position": "CEO of E-com Growth",
+      "image": "/images/sarah.jpg",
+      "content": "RRRTX doesn't just talk about AI. They ship real, working systems. The ROI was visible in 48 hours.",
+      "video_url": "https://loom.com/..."
+    }
+  ],
+  "case_studies": [
+    {
+      "id": "1",
+      "title": "Roofing Contractor Automation",
+      "industry": "Home Services",
+      "metrics": {
+        "roi": "8x",
+        "leads_captured": "47",
+        "revenue_generated": "$28,000"
+      },
+      "challenge": "Client was losing 20 leads/week due to slow response.",
+      "solution": "Built a custom Lead Machine with instant SMS text-back.",
+      "live_url": "https://..."
+    }
+  ]
+}

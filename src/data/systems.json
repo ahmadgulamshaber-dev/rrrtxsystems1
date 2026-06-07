@@ -1,0 +1,33 @@
+{
+  "case_studies": [
+    {
+      "id": "cs_001",
+      "client": "Global Logistics Corp",
+      "industry": "Logistics",
+      "summary": "Automated cross-border compliance documentation using AI agents.",
+      "outcome": {
+        "efficiency_gain": "85%",
+        "time_saved": "40hrs/week",
+        "error_reduction": "100%"
+      },
+      "stack": ["Make.com", "Anthropic Claude 3.5", "Airtable"],
+      "featured": true
+    }
+  ],
+  "services": [
+    {
+      "id": "ai_orchestration",
+      "title": "AI Agent Orchestration",
+      "description": "Deployment of autonomous intelligence layers to handle complex logic within your existing workflows.",
+      "pricing_model": "Custom Implementation + Monthly Retainer"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "t_001",
+      "author": "Marcus Thorne",
+      "role": "CTO, Vector Dynamics",
+      "quote": "RRRTX Systems didn't just automate our tasks; they rebuilt our operational foundation."
+    }
+  ]
+}

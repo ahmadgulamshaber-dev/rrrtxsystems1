@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #05070a; color: #f8fafc; }
+        h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; }
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .cyan-gradient { background: linear-gradient(135deg, #22d3ee 0%, #818cf8 100%); }
+        .hero-glow { position: absolute; top: -10%; left: 50%; transform: translateX(-50%); width: 600px; height: 400px; background: radial-gradient(circle, rgba(34, 211, 238, 0.15) 0%, transparent 70%); z-index: -1; }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <!-- Navigation -->
+    <nav class="flex justify-between items-center px-8 py-6 max-w-7xl mx-auto border-b border-white/5">
+        <div class="flex items-center gap-2">
+            <div class="w-8 h-8 cyan-gradient rounded-lg flex items-center justify-center font-bold text-black">R</div>
+            <span class="text-xl font-bold tracking-tight">RRRTX <span class="text-cyan-400">LABS</span></span>
+        </div>
+        <div class="hidden md:flex gap-8 text-sm text-slate-400">
+            <a href="#" class="hover:text-cyan-400 transition">Services</a>
+            <a href="#" class="hover:text-cyan-400 transition">Work</a>
+            <a href="#" class="hover:text-cyan-400 transition">About</a>
+            <a href="#" class="hover:text-cyan-400 transition">GitHub</a>
+        </div>
+        <button class="px-5 py-2 glass rounded-full text-sm font-medium hover:bg-white/10 transition">Book Audit</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-24 pb-20 px-6 text-center">
+        <div class="hero-glow"></div>
+        <div class="max-w-4xl mx-auto">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-xs font-semibold mb-6">
+                <span class="relative flex h-2 w-2">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-2 w-2 bg-cyan-500"></span>
+                </span>
+                AVAILABLE FOR Q3 PROJECTS
+            </div>
+            <h1 class="text-5xl md:text-7xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-b from-white to-slate-500 leading-tight">
+                You're losing leads to slow response. <span class="text-cyan-400">We fix that.</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-400 mb-10 max-w-2xl mx-auto leading-relaxed">
+                We build automated AI systems that capture, qualify, and follow up with leads in under 60 seconds. High-performance infrastructure for elite agencies and contractors.
+            </p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <button class="px-8 py-4 bg-white text-black font-bold rounded-xl hover:bg-cyan-400 transition-all transform hover:scale-105">
+                    Book Free Automation Audit
+                </button>
+                <button class="px-8 py-4 glass text-white font-bold rounded-xl hover:bg-white/10 transition-all">
+                    View 14+ Shipped Projects
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Bar -->
+    <section class="py-12 border-y border-white/5 bg-white/[0.01]">
+        <div class="max-w-7xl mx-auto px-6">
+            <p class="text-center text-xs font-bold text-slate-500 tracking-[0.2em] uppercase mb-8">Trusted Technical Excellence</p>
+            <div class="flex flex-wrap justify-center gap-12 opacity-50 grayscale hover:grayscale-0 transition duration-500">
+                <div class="flex items-center gap-2 text-xl font-bold"><span class="text-cyan-500">Google</span> AI Finalist</div>
+                <div class="flex items-center gap-2 text-xl font-bold">37+ Certifications</div>
+                <div class="flex items-center gap-2 text-xl font-bold">14 Shipped Apps</div>
+                <div class="flex items-center gap-2 text-xl font-bold">490+ Commits</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bento Grid (Preview) -->
+    <section class="py-24 px-6 max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="md:col-span-2 glass p-10 rounded-3xl relative overflow-hidden group">
+                <div class="absolute top-0 right-0 p-8 text-cyan-500/20 group-hover:text-cyan-500/40 transition">
+                    <svg class="w-32 h-32" fill="currentColor" viewBox="0 0 24 24"><path d="M13 10V3L4 14H11V21L20 10H13Z"/></svg>
+                </div>
+                <h3 class="text-3xl font-bold mb-4">Lead Machine</h3>
+                <p class="text-slate-400 text-lg mb-6 max-w-md">Instant SMS/Email response, automated 14-day follow-up, and direct CRM integration. Speed to lead is your new unfair advantage.</p>
+                <ul class="text-sm text-slate-500 grid grid-cols-2 gap-2">
+                    <li>• <60s Response Time</li>
+                    <li>• Multi-Channel Follow-up</li>
+                    <li>• Lead Qualification AI</li>
+                    <li>• Dashboard Analytics</li>
+                </ul>
+            </div>
+            <div class="glass p-10 rounded-3xl flex flex-col justify-between">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">Quick Win Website</h3>
+                    <p class="text-slate-400 text-sm">Professional 5-page conversion engine for local businesses. Shipped in 5 days.</p>
+                </div>
+                <div class="mt-8 pt-8 border-t border-white/5 text-3xl font-bold">$1,497</div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
